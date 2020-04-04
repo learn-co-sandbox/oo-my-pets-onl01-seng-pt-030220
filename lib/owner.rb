@@ -39,16 +39,16 @@ class Owner
      
   end 
    
-  def list_pets
+  def list_pets()
      
   end 
   
-  def buy_cat(name)
-    @name
+  def buy_cat
+    @cat
     
   end 
   
-  def buy_dog(name)
+  def buy_dog
     @name
     
   end 
