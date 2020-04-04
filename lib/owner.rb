@@ -43,8 +43,8 @@ class Owner
      
   end 
   
-  def buy_cat
-    @cat
+  def buy_cat(name)
+    Cat.new(name, self)
     
   end 
   
