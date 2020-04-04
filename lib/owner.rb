@@ -48,8 +48,8 @@ class Owner
     
   end 
   
-  def buy_dog
-    @name
+  def buy_dog(name)
+    Dog.new(name, self)
     
   end 
    
